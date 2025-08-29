@@ -35,7 +35,7 @@ import AllNotification from './CustomComponents/NotificationFile/AllNotification
 import NotFound from './CustomComponents/NotFound/NotFound';
 import EmailVerification from './CustomComponents/LoginSignup/EmailVerification';
 import TradePartnerProfile from './CustomComponents/Afterlogin/TradePartnerProfile';
-import SendUsdt from './CustomComponents/AddressTransaction/SendUSDT';
+// import SendUsdt from './CustomComponents/AddressTransaction/SendUSDT';
 import SendBitcoin from './CustomComponents/AddressTransaction/SendBtc';
 import SendBitcoinAsset from './CustomComponents/AddressTransaction/SendBitcoinAsset';
 import TradeStart from './CustomComponents/Buy&Sell/TradeStart';
@@ -52,7 +52,7 @@ const RoutesConfig = () => {
             <Route path='/login' element={<Loginnew />} />
             <Route path='/signup' element={<Signupnew />} />
             <Route path='/testing' element={<Testing />} />
-            <Route path='/sendusdt' element={<SendUsdt />} />
+            {/* <Route path='/sendusdt' element={<SendUsdt />} /> */}
             <Route path='/sendbtc' element={<SendBitcoin />} />
             <Route path='/sendbitcoinasset' element={<SendBitcoinAsset />} />
             <Route path='/timeout' element={<TimeoutPage />} />
