@@ -1,5 +1,5 @@
 import React from 'react'
-import NotificationBell from '../Afterlogin/Notificationbell'
+// import NotificationBell from '../Afterlogin/Notificationbell'
 import { Button, Flex } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
 
@@ -45,7 +45,7 @@ const BuySellWithNotification = () => {
             <Button bg={'transparent'} variant={'outline'} size={'sm'} px={{ base: 10, sm: 20 }} onClick={() => navigate('/buy')} >Buy</Button>
             <Button bg={'transparent'} variant={'outline'} size={'sm'} px={{ base: 10, sm: 20 }} onClick={() => navigate('/sell')}>sell</Button>
           </Flex>
-          <NotificationBell />
+          {/* <NotificationBell /> */}
 
         </Flex>
       </Flex>
